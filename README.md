@@ -1,4 +1,11 @@
 # detection-network-in-jetson
+using __--input__ to input the detected image address  
+using __--output__ to confirm the output folder and the output file will add "out-" before the file name  
+
+the result will draw as rectangle and print the class and confidence  
+![output](out-airplane_0.jpg)  
+the output in terminal will like the below
+```
   input:airplane_0.jpg
   <detectNet.Detection object>
      -- ClassID: 5
@@ -44,3 +51,4 @@
      -- Height:  199.585
      -- Area:    21988
      -- Center:  (56.0608, 272.278)
+```
